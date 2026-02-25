@@ -1,4 +1,4 @@
-# 🌦 AI-Powered Weather Dashboard
+# AI-Powered Weather Dashboard
 
 ## 🚀 Project Overview
 
