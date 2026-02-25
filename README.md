@@ -205,6 +205,17 @@ traffic.
 -   Add real-time updates using WebSockets
 -   Improve AI memory handling
 
+
+
+
+🌐 Deployment Status
+
+The application is fully functional locally.
+
+Due to the AI layer running via Ollama (local LLM), full cloud deployment requires additional containerization and model hosting configuration.
+
+Frontend and backend can be deployed independently, but AI currently runs locally for cost-efficiency and privacy.
+
 ------------------------------------------------------------------------
 
 ## 👩‍💻 Author
