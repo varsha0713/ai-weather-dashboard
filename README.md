@@ -1,6 +1,6 @@
 # AI-Powered Weather Dashboard
 
-## 🚀 Project Overview
+##  Project Overview
 
 This is a full-stack AI-powered weather dashboard that enables
 authenticated users to manage multiple cities, view real-time weather
@@ -16,7 +16,7 @@ orchestration using a local LLM.
 
 ------------------------------------------------------------------------
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 ### Frontend
 
@@ -42,7 +42,7 @@ orchestration using a local LLM.
 
 ------------------------------------------------------------------------
 
-## 🏗 High-Level Architecture
+## High-Level Architecture
 
 1.  User interacts with Next.js frontend.
 2.  Frontend sends authenticated requests (JWT token) to Express
@@ -61,7 +61,7 @@ Frontend → Express API → LangChain → Ollama → AI Response
 
 ------------------------------------------------------------------------
 
-## 🔐 Authentication & Authorization
+##  Authentication & Authorization
 
 -   Users register using email and password.
 -   Passwords are hashed using bcryptjs before storing in MongoDB.
@@ -74,7 +74,7 @@ storage - Scoped database queries
 
 ------------------------------------------------------------------------
 
-## 🤖 AI Agent Design & Purpose
+##  AI Agent Design & Purpose
 
 The AI assistant provides contextual weather insights such as: -
 Recommendations for outdoor activities - Best time suggestions - Comfort
@@ -88,29 +88,29 @@ cost efficiency.
 
 ------------------------------------------------------------------------
 
-## ✨ Creative / Custom Features
+##  Creative / Custom Features
 
-### 1️⃣ Best Today Scoring Algorithm
+### 1️ Best Today Scoring Algorithm
 
 A custom scoring system evaluates: - Temperature - Humidity - Wind
 speed - Weather conditions
 
 It calculates a daily score to rank cities.
 
-### 2️⃣ Comfort Classification
+### 2️ Comfort Classification
 
 Cities are classified as: - Comfortable - Moderate - Uncomfortable
 
 Based on predefined weather thresholds.
 
-### 3️⃣ Personalized Dynamic Greeting
+### 3️ Personalized Dynamic Greeting
 
 Greeting dynamically changes based on: - Time of day - Current weather
 condition
 
 ------------------------------------------------------------------------
 
-## ⚙ Setup Instructions (Local)
+##  Setup Instructions (Local)
 
 ### 1. Clone Repository
 
@@ -164,7 +164,7 @@ ollama run phi3
 
 ------------------------------------------------------------------------
 
-## 🚀 Deployment Setup
+##  Deployment Setup
 
 Frontend: - Deploy using Vercel
 
@@ -176,7 +176,7 @@ Note: Ollama must run locally or on an AI-enabled server environment.
 
 ------------------------------------------------------------------------
 
-## 🎯 Key Design Decisions & Trade-offs
+##  Key Design Decisions & Trade-offs
 
 -   JWT Authentication chosen for stateless scalability.
 -   MongoDB used for flexible schema design.
@@ -189,7 +189,7 @@ traffic.
 
 ------------------------------------------------------------------------
 
-## ⚠ Known Limitations
+##  Known Limitations
 
 -   AI responses depend on local model performance.
 -   Weather accuracy depends on OpenWeather API reliability.
@@ -198,7 +198,7 @@ traffic.
 
 ------------------------------------------------------------------------
 
-## 📌 Future Improvements
+##  Future Improvements
 
 -   Add refresh token mechanism
 -   Implement caching for weather data
@@ -208,7 +208,7 @@ traffic.
 
 
 
-🌐 Deployment Status
+## Deployment Status
 
 The application is fully functional locally.
 
@@ -218,7 +218,7 @@ Frontend and backend can be deployed independently, but AI currently runs locall
 
 ------------------------------------------------------------------------
 
-## 👩‍💻 Author
+##  Author
 
 Varsha Acharya\
 Full-Stack Developer \| AI Enthusiast \| 2025 Graduate
